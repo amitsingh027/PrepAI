@@ -1,0 +1,15 @@
+.progress-page {}
+
+.chart-title { font-size: 15px; font-weight: 600; margin-bottom: 16px; }
+
+.no-data {
+  display: flex; align-items: center; justify-content: center;
+  height: 200px; color: var(--text-muted); font-size: 14px;
+}
+
+.perf-list { display: flex; flex-direction: column; gap: 16px; }
+.perf-item { display: flex; align-items: center; gap: 12px; }
+.perf-label { display: flex; align-items: center; gap: 8px; width: 200px; font-size: 13px; color: var(--text-muted); flex-shrink: 0; }
+.perf-bar-wrap { flex: 1; height: 8px; background: var(--bg-hover); border-radius: 4px; overflow: hidden; }
+.perf-bar { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+.perf-score { font-size: 14px; font-weight: 700; min-width: 40px; text-align: right; }
